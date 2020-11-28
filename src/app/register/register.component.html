@@ -1,0 +1,111 @@
+<html>
+        <head> 
+        <title>
+        Registration Page
+        </title>
+        <style>
+             body{
+                 background-image: none;
+                 height: 1200px;
+             }
+            
+            input[type=text], select, textarea {
+              width: 60%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              resize: vertical;
+              margin-left: 15px;
+            }
+            
+            label {
+             margin-left: 15px;
+              padding: 12px 12px 12px 0;
+              display: inline-block;
+            }
+            
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              float: right;
+            }
+            #btn{
+              background-color: #4CAF50;
+              color: white;
+              margin-left: 16px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              float: left;
+              padding: 10px;
+              width:200px;
+            }
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            #radio{
+                margin-left: 15px;
+            }
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }</style>
+        </head>
+        <body >
+        <br>
+        <br>
+        <form>
+            <h1 style="margin-left: 400px; font-size: 30px;"> Registration Form </h1>    
+        <label> Firstname </label>  <br>  
+        <input type="text" name="firstname" size="15"/> <br> <br>
+        <label> Lastname: </label> <br>  
+        <input type="text" name="middlename" size="15"/> <br> <br>
+        
+        <label> 
+        Course :
+        </label> <br>  
+        <select>
+        <option value="Course">Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BBA">BBA</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.Tech">M.Tech</option>
+        </select>
+        
+        <br>
+        <br>
+        <label> 
+        Gender :
+        </label><br>
+        <input id="radio" type="radio" name="male"/> Male <br>
+        <input  id="radio"type="radio" name="female"/> Female <br>
+        <input  id="radio"type="radio" name="other"/> Other
+        <br>
+        <br>
+        
+        <label> 
+        Phone :
+        </label><br>  
+        
+        <input type="text" name="phone" size="10"/> <br> <br>
+        <label> 
+            Address 
+            </label>
+        <br>
+        <textarea cols="80" rows="5" value="address">
+            </textarea><br>
+             <button id="btn" type="submit" value="Submit">Register</button>
+        </form>
+            </body>
+            </html>
+            
+
+  
+  

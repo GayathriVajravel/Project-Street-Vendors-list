@@ -1,0 +1,22 @@
+
+ <mat-toolbar style="background-color:dodgerblue; height:60px; color:black;"class="mat-elevation-z5"><mat-icon id="toolbarmenu" (click)="onMenuToggle()">subject</mat-icon>Zoho.com</mat-toolbar>
+<mat-sidenav-container id="sidenavcontainer" class="example-container">
+  <mat-sidenav mode="side" opened id="sidenav" [class.menu-open]="isMenuOpen"[class.menu-close]="!isMenuOpen"> <mat-nav-list style="color: black; width:200px; background-color: rgb(27, 26, 26); height:98%">
+    <a mat-list-item routerLink='home' style="color: whitesmoke;">
+      <mat-icon>home</mat-icon>Home</a>
+    <a mat-list-item style="color: whitesmoke;"><mat-icon>edit</mat-icon>About</a>  
+    <!-- <a mat-list-item ><mat-icon>inbox</mat-icon>Services</a> -->
+      <a mat-list-item style="color: whitesmoke;" routerLink='register'><mat-icon>keyboard</mat-icon>Register</a>
+  </mat-nav-list>
+     </mat-sidenav>
+ <mat-sidenav-content [ngStyle]="{'margin-left.px':contentMargin}">
+ <router-outlet></router-outlet>
+ </mat-sidenav-content>
+</mat-sidenav-container> 
+
+<mat-toolbar-row style="background-color: dodgerblue; margin-top: -10px;">
+  <span>Second Line</span>
+  <span class="example-spacer"></span>
+  <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+</mat-toolbar-row> 
+

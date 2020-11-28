@@ -1,0 +1,51 @@
+.example-container {
+    width:100%;
+    height:80%;
+    background-color:gainsboro;
+    margin-left: -2px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    
+    }
+     
+    .mat-elevation-z5{
+    position: relative;
+    z-index: 2;
+    }
+    
+    .mat-sidenav-content a{color:#D8BFD8;}
+    .mat-sidenav a:hover{
+        color: blue;
+    }
+    .mat-drawer-content{
+    width:120%;
+    height:100%;
+    background-color:gainsboro;
+    padding: 15px;
+    font-size: x-large;
+    color:black;
+    background-image: url(https://previews.123rf.com/images/dizanna/dizanna2001/dizanna200100527/138620375-street-vendors-text-with-marker-concept-background.jpg);
+    // background-position: center;
+    //   background-repeat: no-repeat;
+    //   background-size:cover;
+    }
+    .mat-icon{
+        padding-right: 10px;
+       
+    
+    }
+    .mat-drawer{
+    height: 200%;
+    color: whitesmoke;
+    }
+    
+    #sidenav.menu-close{
+    width:42px;
+    transition: all 200ms linear;
+    }
+    
+    #sidenav.menu-open{
+        width:200px;
+        transition: all 200ms linear;
+    }
+        
